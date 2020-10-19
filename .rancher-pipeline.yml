@@ -1,0 +1,8 @@
+stages:
+- name: compile
+  steps:
+  - runScriptConfig:
+      image: registry-vpc.cn-shenzhen.aliyuncs.com/ssxs/ssxs-centos7-jdk8-maven3:1
+      shellScript: mvn clean deploy -DskipTests -U
+timeout: 60
+

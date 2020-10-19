@@ -1,2 +1,5 @@
-# ssxs-base-component
-ssxs base component projects
+### 说明
+此处放置所有的公共组件
+
+// TODO 很有必要去除不需要的一些类，精简一下。
+
